@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicación</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app1.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <!-- End WOWSlider.com HEAD section -->
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/iphone-1.png')">
+  
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Telefonía Celular </h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> Celular 1</h1>
+          <div>
+              <center><p></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/iphone-1.png',1)"><img src="imagenes/iphone6s.jpg" name="Image16" width="400" height="430" id="Image16"></a></p>
+              </center>
+          <br>
+          </div>
+          <div></div>
+      </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1> Celular 2</h1>
+          <div>
+            <p> <center> </center> </p>
+            <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/g4.jpg',0)"><img src="imagenes/motog4.jpg" name="Image17" width="288" height="247" id="Image17"></a></center><br>
+          </div>
+          <div></div>
+      </div>
+        </div>
+       <div>
+           <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+           <li class="ui-first-child ui-last-child">
+             <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+                <h2> Definición </h2>
+                <p> Se muestra la definición del Télefono celular.</p>
+             </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+             <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2> Historia </h2>
+               <p> Se muestra los antescedentes de la Telefonía Celular. </p>
+             </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+             <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2> Clasificación </h2>
+               <p>Se muestra la calsificación de los diferentes dispositivos móviles del mercado.</p>
+             </a>
+           </li>
+             <li class="ui-first-child ui-last-child">
+             <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2> Compañias </h2>
+               <p>Se muestran algunas compañias que ofrecen servicio de telefonia en México. </p>
+             </a>
+           </li>
+          </ul>
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/iphone6s.jpg" alt="iphone 6" title="iphone 6" id="wows1_0"/></li>
+		<li><img src="data1/images/lgg3.jpg" alt="lg-g3" title="lg-g3" id="wows1_1"/></li>
+		<li><img src="data1/images/celulares.jpg" alt="celulares" title="celulares" id="wows1_2"/></li>
+		<li><img src="data1/images/cooper.jpg" alt="cooper" title="cooper" id="wows1_3"/></li>
+		<li><img src="data1/images/samsung.jpg" alt="Samsung" title="Samsung" id="wows1_4"/></li>
+		<li><img src="data1/images/motog4.jpg" alt="moto-g4" title="moto-g4" id="wows1_5"/></li>
+		<li><img src="data1/images/huawei.jpg" alt="HUAWEI" title="HUAWEI" id="wows1_6"/></li>
+		<li><img src="data1/images/media.png" alt="Samsumg Galaxy J5" title="Samsumg Galaxy J5" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/w375.jpg" alt="jquery slideshow" title="Motorola w375" id="wows1_8"/></a></li>
+		<li><img src="data1/images/celular3.png" alt="Moto G 2da. Generación" title="Moto G 2da. Generación" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="iphone 6"><span><img src="data1/tooltips/iphone6s.jpg" alt="iphone 6"/>1</span></a>
+		<a href="#" title="lg-g3"><span><img src="data1/tooltips/lgg3.jpg" alt="lg-g3"/>2</span></a>
+		<a href="#" title="celulares"><span><img src="data1/tooltips/celulares.jpg" alt="celulares"/>3</span></a>
+		<a href="#" title="cooper"><span><img src="data1/tooltips/cooper.jpg" alt="cooper"/>4</span></a>
+		<a href="#" title="Samsung"><span><img src="data1/tooltips/samsung.jpg" alt="Samsung"/>5</span></a>
+		<a href="#" title="moto-g4"><span><img src="data1/tooltips/motog4.jpg" alt="moto-g4"/>6</span></a>
+		<a href="#" title="HUAWEI"><span><img src="data1/tooltips/huawei.jpg" alt="HUAWEI"/>7</span></a>
+		<a href="#" title="Samsumg Galaxy J5"><span><img src="data1/tooltips/media.png" alt="Samsumg Galaxy J5"/>8</span></a>
+		<a href="#" title="Motorola w375"><span><img src="data1/tooltips/w375.jpg" alt="Motorola w375"/>9</span></a>
+		<a href="#" title="Moto G 2da. Generación"><span><img src="data1/tooltips/celular3.png" alt="Moto G 2da. Generación"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        </div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div> <a href="imagenes/logo.png"><img src="imagenes/logo.png" width="64" height="64"></a>
+        </div>
+        <div>
+          <h4> Aplicación Dos </h4>
+          <h4> Anayenci López Flores</h4>
+        </div>
+       </div>
+       </div>
+       <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Definición</h1>
+        </div>
+        <div data-role="content" align="center">
+         <div>
+           <p>Aparato telefónico de pequeño tamaño, portátil, sin hilos ni cables externos, para poder hablar desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo facilita.</p>
+           <p>permite transmitir sonidos a distancia mediante señales eléctricas. Fue inventado en 1871 por Antonio Meucci, aunque el primero en patentarlo fue Alexander Graham Bell, en 1876.</p>
+           <h2>&nbsp;</h2>
+         </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Celular 1</h1>
+            <div>
+            <p><center> Samsung Galaxy S6 Edge </p>
+         <center><img src="imagenes/celular1.png" alt="Samsung Galaxy S6 Edge" width="216"></center>
+         </div>
+      </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Celular 2</h1>
+            <div>
+            <p><center> Moto G 2da. Generación </center></p>
+           <center><img src="imagenes/celular3.png" alt="Moto G (2a Gen)" width="225"></center>
+          </div>
+      </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Celular 3</h1>
+            <div>
+            <p><center> LG G4 </center></p>
+            <center><img src="imagenes/celular2.png" alt="LG G4" width="180" height="201"></center>
+          </div>
+      </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4> Aplicación Dos, ALF</h4>
+        </div>
+       </div>
+           
+           
+       <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Historia</h1>
+         </div>
+         <div data-role="content" align="center">
+           <div>
+             <p>Martin Cooper fue el pionero en esta tecnología, a él se le considera como "el padre de la telefonía celular" al introducir el primer radioteléfono, en 1973, en Estados Unidos, mientras trabajaba para Motorola; pero no fue hasta 1979 cuando aparecieron los primeros sistemas comerciales en Tokio, Japón por la compañía NTT. </p>
+
+            <p>En 1981, los países nórdicos introdujeron un sistema celular similar a AMPS (Advanced Mobile Phone System). Por otro lado, en Estados Unidos, gracias a que la entidad reguladora de ese país adoptó reglas para la creación de un servicio comercial de telefonía celular, en 1983 se puso en operación el primer sistema comercial en la ciudad de Chicago. </p>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Imagen</h1>
+            <div>
+            <p><center>  </center></p>
+            <img src="imagenes/cooper.jpg" alt="LG G4" width="210">
+          </div>
+      </div>
+        </div>            
+
+            <p>Con ese punto de partida, en varios países se diseminó la telefonía celular como una alternativa a la telefonía convencional inalámbrica. La tecnología tuvo gran aceptación, por lo que a los pocos años de implantarse se empezó a saturar el servicio. En ese sentido, hubo la necesidad de desarrollar e implantar otras formas de acceso múltiple al canal y transformar los sistemas analógicos a digitales, con el objeto de darle cabida a más usuarios. Para separar una etapa de la otra, la telefonía celular se ha caracterizado por contar con diferentes generaciones. A continuación, se describe cada una de ellas. </p>
+            
+            <h2> Primera Generación</h2>
+            <p>La 1G data de 1981. De la mano de Ericsson se lanza el sistema Nordic Mobile Telephony, capaz de transmitir a 450 MHz en FM. Con el tiempo llegaría a 900Mhz. Esta tecnología (junto con los microprocesadores) permite terminales más ligeros y que puede llevar una sola persona. Eso sí el equipo sigue siendo relativamente grande, de manera que se instala sobretodo en coches de lujo para directivos de empresa. Aunque el aparato es digital, la red en la que opera aún es analógica y sólo transmite voz. Comienza la era en la que una persona puede transmitir en movimiento, ya que la tecnología de células permite conectar en itinerancia con una estación telefónica u otra. Ha nacido la telefonía celular, o los celulares (Cell-Phones). Las redes de comunicación que hacen posible esto son entre otras la AMPS y TACS que aparecieron en EE.UU y España, respectivamente.</p>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Imagen</h1>
+            <div>
+            <p><center>  </center></p>
+            <center>
+              <img src="imagenes/celulares.jpg" alt="LG G4" width="210">
+            </center>
+          </div>
+      </div>
+        </div> 
+           <h2>Segunda Generación</h2>
+           <p>La 2G es del año 1990, y supone la Globalización Digital. Los terminales son más pequeños y configurables con diferentes tonos y con servicios contratables desde el teléfono. La tecnología de Multiplexado permite una rapidez de conexión sin precedentes y los SMS. Comienza así una época de gran expansión entre el público general. Los sistemas de  redes que soportan esta tecnología son varios: En un primer momento aparece el sistema GMS 900Mhz y 1800Mhz, compatible con las redes de comunicación general RDSI, a una velocidad de 9,6kbps. Sin embargo con los años se establecen nuevos estándares como el 2.5G, capaz de generar EMS y MMS y de conectarse por el sistema GPRS (56-114kbps) y por Edge (hasta 384kbps)</p>
+
+            <h2>Tercera Generación</h2>
+            <p>La 3G del año 1999 tiene como premisa la conmutación de paquetes de datos, de manera que es capaz de transmitir datos y voz en la misma conexión  telefónica. Es la época de las videollamadas, los programas, el correo electrónico por conexión a internet, en definitiva, de los Smartphones. Se lanza un nuevo sistema revolucionario de ancho de banda, el UMTS, basado en CDMA, capaz de alcanzar hasta 7.2Mbps. Sin embargo su expansión comercial ha sido escasa, ya que la demanda por el usuario medio es casi nula.</p>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Imagen</h1>
+            <div>
+            <p><center>  </center></p>
+            <center><img src="imagenes/foro.jpg" alt="LG G4" width="210"></center>
+          </div>
+      </div>
+        </div> 
+            <h2>Cuarta Generación</h2>
+            <p>La actualidad pasa por la 4G, con sistemas de redes IP, tasas de transferencia de 1Gbps y televisión HD en  el teléfono móvil. Hay pocos terminales de momento que soporten esta tecnología completamente y son menos los operadores que ofrecen la conexión. De momento, la implantación de este nuevo estándar se está haciendo de manera progresiva y de la mano de operadores de telefonía privados. Cada vez está disponible en más países como Japón, EE.UU. En Europa se están incorporando los países de la UE a gran velocidad.</p>
+           </div>
+           </div> 
+         <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4> Aplicación Dos, ALF</h4>
+        </div>
+        </div>
+            
+            
+       <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Clasificación</h1>
+         </div>
+         <div data-role="content" align="center">
+           <div>Los telefonos celulares disponibles en el mercado se clasifican en distintas gamas de acuerdo a sus características.</div>
+           </div> 
+           <h2><center>GAMA BAJA</center></h2>
+        <p>Son aquellos smartphones de bajo costo y con capacidades "suficientes". La mayoría que podemos encontrar de este tipo son de origen Chino.</p>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Gama Baja </h1>
+            <div>
+            <p><center>Motorola W375 </center></p>
+          <center><img src="imagenes/w375.jpg" width="273" height="223" alt="Motorola W375"></center> </div>
+      </div>
+        </div>
+        <p>Conformado por aquellos dispositivos móviles que rondan la media de precio con respecto a las otras dos gamas. Se puedenen encontrara excelentes celulares (calidad-precio) ya que algunos incluyen preocesadores de dispositivo de gama alta de años anteriores o incluso lo son, pero debido a fallos de construción o poca demanda descienden rápidamente.</p>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Gama Media </h1>
+            <div>
+            <p><center>Samsumg J5</center></p>
+          <center><img src="imagenes/media.png" alt="" width="180"></center></div>
+      </div>
+        </div>
+        <p>En esta gama se encuentran los mejores celulares y con mejores prestaciones que lanzan grandes compañias, estos dispositivos se caracterizan por su poderoso Hardware y elegante diseño. Además de que cada uno de ellos, al salir, trata de sacar algo innovador y diferente a los demás, como nuevos procesadores, resistencia o software.</p>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Gama Alta </h1>
+            <div>
+            <p><center>LG G3</p>
+            <p><img src="imagenes/lg-g3.jpg" width="410" height="307" alt="LG G3"> </p>
+        <center></center></div>
+      </div>
+        </div>        
+        <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4> Aplicación Dos, ALF</h4>
+        </div>
+        </div>
+          
+          
+      <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Compañias de telefonia en México</h1>
+         </div>
+         <div data-role="content" align="center">
+           <div>
+             <p></p>
+           </div>
+           </div>  
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Telcel</h1>
+            <div>
+            <p>Es una marca propiedad de empresa mexicana Radiomóvil DIPSA, S.A. de C.V.</p>
+            <p> Tiene presencia en todo México y se dedica a ofrecer un servicio de telefonía móvil, fija, servicios de banda ancha, entre otros servicios.Fundada en 1984, es la compaañía de telefonía más popular.</p>
+            <p>&nbsp;</p>
+        <center><img src="imagenes/telcel.png" alt="Logo de la compañia Telcel" width="384"></center></div>
+      </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> Movistar</h1>
+            <div>
+            <p>Es la marca comercial de la multinacional española de telecomunicaciones Telefónica en España e Hispanoaméricana, desde el 3 de mayo de 2010, para susprodusctos de telefonía móvil, fija, internet y televisión.</p>
+            <center><img src="imagenes/Movistar.png" alt="Logo de la compañia Mosvistar" width="255"></center>
+          </div>
+      </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> AT&T México</h1>
+            <div>
+            <p><strong>AT&amp;T México</strong> (de razón social: <strong>AT&amp;T Comunicaciones Digitales, S. de R.L. de C.V.</strong>) es una empresa mexicana de telecomunicaciones, subsidiaria de la empresa estadounidense, cuya sede se encuentra en la   Ciudad de México. Entre sus principales servicios está la telefonía móvil, el internet móvil,entre otros. </p>
+            <center><img src="imagenes/att.png" alt="LG G4" width="400"></center>
+          </div>
+      </div>
+        </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+            <h1> UNEFON </h1>
+            <div>
+            <p>Es una compañía mexicana de telefonía móvil propiedad de AT&T, la cual se dedica a ofrecer únicamente el esquema de cobro de prepago, fundada en 1998.</p>
+            <p>&nbsp;</p>
+            <center><img src="imagenes/Unefon.png" alt="Logo de la compañia Unefon" width="400"></center>
+          </div>
+      </div>
+        </div>
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4> Aplicación Dos, ALF</h4>
+        </div>
+        </div>
+</body>
+</html>
